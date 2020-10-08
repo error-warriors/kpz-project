@@ -8,9 +8,7 @@ namespace WindowsFormsApp1
 {
     static class Program
     {
-        /// <summary>
-        /// Главная точка входа для приложения.
-        /// </summary>
+        /// Коммент-котрий-рекурсія
         [STAThread]
         static void Main()
         {

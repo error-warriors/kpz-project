@@ -35,9 +35,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(111, 148);
+            this.button1.Location = new System.Drawing.Point(333, 222);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 41);
+            this.button1.Size = new System.Drawing.Size(87, 33);
             this.button1.TabIndex = 0;
             this.button1.Text = "Меню";
             this.button1.UseVisualStyleBackColor = true;
@@ -51,22 +52,24 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(105, 41);
+            this.label1.Location = new System.Drawing.Point(79, 33);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(478, 34);
+            this.label1.Size = new System.Drawing.Size(361, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "\"Облік пацієнтів клінічної лікарні\"";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(696, 536);
+            this.ClientSize = new System.Drawing.Size(522, 436);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Облік пацієнтів клінічної лікарні";
             this.Load += new System.EventHandler(this.Form1_Load);

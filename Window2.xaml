@@ -1,0 +1,30 @@
+﻿<Window x:Class="SEMEN.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SEMEN"
+        mc:Ignorable="d"
+        Title="Розробники" Height="450" Width="800" Background="lightblue">
+    <Grid>
+        <Image Margin="32,133,598.6,39" Source="Image2.png" Stretch="Fill"/>
+        <Image Margin="223,153,209.6,53" Source="Image3.png" Stretch="Fill"/>
+        <Image Margin="608,133,33.6,39" Source="Image4.png" Stretch="Fill"/>
+        <Label Content=" Перцович Руслан&#xD;&#xA;Back-end devoloper" HorizontalAlignment="Left" Margin="32,57,0,0" VerticalAlignment="Top" Width="181" FontSize="20" FontFamily="Segoe UI Light"/>
+        <Label Content=" Захарчук Олексій&#xD;&#xA;       Team-Lead" HorizontalAlignment="Left" Margin="324,75,0,0" VerticalAlignment="Top" Width="199" FontSize="20" FontFamily="Segoe UI Light"/>
+        <Label Content="   Джаман Максим&#xD;&#xA;Front-end devoloper" HorizontalAlignment="Left" Margin="587,57,0,0" VerticalAlignment="Top" Width="187" FontSize="20" FontFamily="Segoe UI Light"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Height="29" Margin="683,10,0,0" VerticalAlignment="Top" Width="77" Click="Button_Click" FontFamily="Segoe UI Light" FontSize="18"/>
+        <Button Height="30" Margin="639,7,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="32" Click="Button_Click_1">
+            <Image Height="27" Source="Image1.png" Stretch="Fill" Width="29" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.012"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Button>
+    </Grid>
+</Window>

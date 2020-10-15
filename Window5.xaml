@@ -1,0 +1,26 @@
+﻿<Window x:Class="SEMEN.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SEMEN"
+        mc:Ignorable="d"
+        Title="Редагування даних" Height="460.8" Width="402.8" Background="lightblue">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="94*"/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="99*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Додати запис" HorizontalAlignment="Left" Height="49" Margin="9,244,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click" FontSize="20" FontFamily="Segoe UI Light" Grid.ColumnSpan="2" BorderBrush="Black"/>
+        <Rectangle Grid.ColumnSpan="3" Fill="#FFACDABF" HorizontalAlignment="Left" Height="186" Margin="10,49,0,0" Stroke="Black" VerticalAlignment="Top" Width="377"/>
+        <TextBlock Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="152" Margin="10,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="377"/>
+        <Rectangle Grid.ColumnSpan="3" Fill="#FF60C09C" HorizontalAlignment="Left" Height="37" Margin="10,14,0,0" Stroke="Black" VerticalAlignment="Top" Width="377"/>
+        <Label Content="Інформаційне поле" HorizontalAlignment="Left" Height="40" Margin="107,11,0,0" VerticalAlignment="Top" Width="180" Grid.ColumnSpan="3" FontFamily="Segoe UI Light" FontSize="20"/>
+        <Button Content="Видалити запис" HorizontalAlignment="Left" Height="49" Margin="9,302,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click" FontSize="20" FontFamily="Segoe UI Light" Grid.ColumnSpan="2" BorderBrush="Black"/>
+        <Button Content="Редагувати запис" HorizontalAlignment="Left" Height="49" Margin="8.8,244,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click" FontSize="20" FontFamily="Segoe UI Light" Grid.Column="2" BorderBrush="Black"/>
+        <Button Content="Архівувати запис" HorizontalAlignment="Left" Height="49" Margin="8.8,302,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click" FontSize="20" FontFamily="Segoe UI Light" Grid.Column="2" BorderBrush="Black"/>
+        <Button Content="Зберегти" HorizontalAlignment="Left" Height="46" Margin="78,367,0,0" VerticalAlignment="Top" Width="235" Click="Button_Click" FontSize="25" FontFamily="Segoe UI Light" Grid.ColumnSpan="3" Background="#FF9EE097" BorderBrush="Black"/>
+        <Button Content="Назад" Grid.Column="2" HorizontalAlignment="Left" Height="25" Margin="120.8,19,0,0" VerticalAlignment="Top" Width="56" FontFamily="Segoe UI Light" FontSize="16" Click="Button_Click_1" Background="#FFE5E5E5" BorderBrush="Black"/>
+    </Grid>
+</Window>
